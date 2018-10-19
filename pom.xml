@@ -20,10 +20,4 @@
       <version>2.9.4.wso2v1</version>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>internal</id>
-        <url>https://github.com/Fergus-Ryan/CT417_Student_Registration_System.git</url>
-    </repository>
-</distributionManagement>
 </project>

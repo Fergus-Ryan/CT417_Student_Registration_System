@@ -61,15 +61,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testAddModule" time="0.001"/>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetModules" time="0"/>
   <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetName" time="0"/>
   <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetId" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testAddModule" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetModules" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testRemoveModule" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetCourses" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetUsername" time="0.001"/>
   <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetDob" time="0"/>
   <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testRemoveCourse" time="0"/>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetCourses" time="0"/>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testRemoveModule" time="0"/>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetUsername" time="0"/>
-  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testAddCourse" time="0"/>
   <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testGetAge" time="0"/>
+  <testcase classname="com.softEng.assignment1.fergusR.StudentTest" name="testAddCourse" time="0"/>
 </testsuite>
