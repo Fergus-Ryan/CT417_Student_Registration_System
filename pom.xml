@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.softEng.assignment1.fergusR</groupId>
+  <artifactId>assignment1.student_registration_system</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>assignment1.student_registration_system</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.wso2.orbit.joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.9.4.wso2v1</version>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>internal</id>
+        <url>https://github.com/Fergus-Ryan/CT417_Student_Registration_System.git</url>
+    </repository>
+</distributionManagement>
+</project>
