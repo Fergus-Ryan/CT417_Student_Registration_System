@@ -66,11 +66,11 @@ public class Module {
     @Override public String toString(){
         String coursesString = new String();
         for(int i=0; i<this.getCourses().size(); i++){
-                    coursesString += this.getCourses().get(i).toString() + "\n";
+                    coursesString += this.getCourses().get(i).getName() + "\n";
         }
         String studentsString = new String();
         for(int i=0; i<this.getStudents().size(); i++){
-                    studentsString += this.getStudents().get(i).toString() + "\n";
+                    studentsString += this.getStudents().get(i).getName() + "\n";
         }
         return "Module: " + this.name + "\n\tID: " + Integer.toString(this.id) +
                 "\n\tCourses:\n\t\t" +  coursesString +
