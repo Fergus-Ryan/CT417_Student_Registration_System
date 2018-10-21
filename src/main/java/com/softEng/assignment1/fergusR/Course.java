@@ -76,7 +76,7 @@ public class Course {
                     studentsString += this.getStudents().get(i).getName() + "\n\t\t";
         }
         return "Course: " + this.name + "\n\tStart Date: " + this.startDate + "\n\tEnd Date: " + this.endDate +
-                "\n\tCourses:\n\t\t" +  modulesString +
+                "\n\tModules:\n\t\t" +  modulesString +
                 "\n\tStudents:\n\t\t" + studentsString;
     }
 }

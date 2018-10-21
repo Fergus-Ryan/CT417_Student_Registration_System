@@ -86,9 +86,9 @@ public class Student {
         for(int i=0; i<this.getModules().size(); i++){
                     modulesString += this.getModules().get(i).getName() + "\n\t\t";
         }
-        return "Module: " + this.name + "\n\tID: " + Integer.toString(this.id) +
+        return "Student: " + this.name + "\n\tID: " + Integer.toString(this.id) +
                 "\n\tCourses:\n\t\t" +  coursesString +
-                "\n\tStudents:\n\t\t" + modulesString;
+                "\n\tModules:\n\t\t" + modulesString;
     }
     
 }
