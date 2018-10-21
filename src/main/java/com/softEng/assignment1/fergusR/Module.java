@@ -62,6 +62,20 @@ public class Module {
     public ArrayList<Course> getCourses(){
         return this.courses;
     }
+    
+    @Override public String toString(){
+        String coursesString = new String();
+        for(int i=0; i<this.getCourses().size(); i++){
+                    coursesString += this.getCourses().get(i) + "\n";
+        }
+        String studentsString = new String();
+        for(int i=0; i<this.getStudents().size(); i++){
+                    studentsString += this.getStudents().get(i) + "\n";
+        }
+        return "Module: " + this.name + "\n\tID: " + Integer.toString(this.id) +
+                "\n\tCourses:\n\t\t" +  coursesString +
+                "\n\tStudents:\n\t\t" + studentsString;
+    }
 }   
     
     
