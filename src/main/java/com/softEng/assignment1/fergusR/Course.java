@@ -69,11 +69,11 @@ public class Course {
     @Override public String toString(){
         String modulesString = new String();
         for(int i=0; i<this.getModules().size(); i++){
-                    modulesString += this.getModules().get(i) + "\n";
+                    modulesString += this.getModules().get(i).toString() + "\n";
         }
         String studentsString = new String();
         for(int i=0; i<this.getStudents().size(); i++){
-                    studentsString += this.getStudents().get(i) + "\n";
+                    studentsString += this.getStudents().get(i).toString() + "\n";
         }
         return "Course: " + this.name + "\n\tStart Date: " + this.startDate + "\n\tEnd Date: " + this.endDate +
                 "\n\tCourses:\n\t\t" +  modulesString +

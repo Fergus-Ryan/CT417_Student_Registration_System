@@ -92,6 +92,7 @@ public class CourseTest extends TestCase {
         String expResult = "testCourse";
         String result = instance.getName();
         assertEquals(expResult, result);
+        
     }
 
     /**
