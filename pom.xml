@@ -20,4 +20,8 @@
       <version>2.9.4.wso2v1</version>
     </dependency>
   </dependencies>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
 </project>
